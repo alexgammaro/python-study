@@ -6,3 +6,4 @@ Repositório de códigos Python de estudos
  - <a href="FIAP-Python/">FIAP-Python</a>
  - <a href="LeWagon/">LeWagon</a>
  - <a href="anonimato/">anonimato</a>
+ - <a href="Solyd-PythonBasico/">Solyd-PythonBasico</a>
