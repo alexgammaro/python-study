@@ -1,16 +1,20 @@
-# This is a sample Python script.
+from veiculo import Veiculo
+from carro import Carro
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+caminhao_rosa = Veiculo("rosa", 6, "Ford", 10)
+print(caminhao_rosa)
+print(type(caminhao_rosa))
+print("CAMINHAO ROSA")
+print("Cor:", caminhao_rosa.cor)
+print("Marca:", caminhao_rosa.marca)
+print("Quantidade de rodas:", caminhao_rosa.qtd_rodas)
+print("Tanque:", caminhao_rosa.tanque, "litros")
+print("=====================================")
+carro_azul = Carro("azul", "BMW", 30)
+print("CARRO AZUL")
+print("Cor:", carro_azul.cor)
+print("Marca:", carro_azul.marca)
+print("Quantidade de rodas:", carro_azul.qtd_rodas)
+print("Tanque:", carro_azul.tanque, "litros")
+carro_azul.abastecer(35)
+print("Tanque:", carro_azul.tanque, "litros")
