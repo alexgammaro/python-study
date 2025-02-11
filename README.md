@@ -1,5 +1,5 @@
 # Python Study
-Repositório de códigos Python de estudos realizados
+Repositório de códigos em Python de estudos realizados
 
  - <a href="DIO/">DIO</a>
  - <a href="FIAP/">FIAP</a>
