@@ -32,5 +32,5 @@ def main():
         descriptografar_arquivo(arquivo, chave)
     print("Arquivos restaurados com sucesso!!!")
 
-if __name__=="__main__":
+if __name__== "__main__":
     main()

